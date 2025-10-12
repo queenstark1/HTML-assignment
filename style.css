@@ -1,0 +1,22 @@
+fieldset{
+    border: 76px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #279223;
+}
+
+legend{
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 1.2em;
+    background-color: #f9f9f9;
+}
+
+#header{
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}

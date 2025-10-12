@@ -1,0 +1,29 @@
+fieldset{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://www.google.com/imgres?q=quickmart%20supermarket&imgurl=https%3A%2F%2Fwww.businessdailyafrica.com%2Fresource%2Fimage%2F3768262%2Fportrait_ratio1x1%2F1600%2F1600%2Ff7be12f5ea49f1091dba662fb9e50f79%2Foh%2Fquickmart.jpg&imgrefurl=https%3A%2F%2Fwww.businessdailyafrica.com%2Fbd%2Fnews%2Fcounties%2Fquickmart-to-replace-tuskys-at-t-mall-on-lang-ata-road-3767260&docid=dlYXrBPJdN0H7M&tbnid=zASAd9V7c_nr8M&vet=12ahUKEwigq6fP6ZKQAxUQVaQEHaxSNpIQM3oECEcQAA..i&w=1600&h=1600&hcb=2&ved=2ahUKEwigq6fP6ZKQAxUQVaQEHaxSNpIQM3oECEcQAA');
+
+}
+legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0 10px;
+    color: black;
+    margin-bottom:10px ;
+
+}
+
+#head{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 40px;
+    color: black;
+    background-color: rgb(171, 122, 48);
+
+}

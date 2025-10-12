@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link icon rel="shortcut icon" href="htmlicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="faorms.css">
+    <title>forms</title>
+</head>
+<body>
+    <h1 id="head" align="center">QuickMart Supermarket</h1>
+    <h2>Would you like to work as a salesperson for QuickMart?</h2>
+  <p>QuickMart Supermarket is opening a chance for anyone who would like to get hired.</p><br>
+
+  <p>Please fill in the forms below to secure a place.</p>
+  <br>
+
+
+  <form action="/action_page.php" method="post" target="_self" autocomplete="on" >
+  <fieldset>
+   
+    <form action="submit_form.php" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br>
+
+      <label for="experience">Do you have any prior sales experience?</label><br>
+      <input type="radio" id="yes" name="experience" value="yes" required>
+      <label for="yes">Yes</label><br>
+      <input type="radio" id="no" name="experience" value="no">
+      <label for="no">No</label><br>
+
+      <p>Which goods do you feel at ease selling?</p>
+      <input list="goods" name="goods" required>
+        <datalist id="goods">
+          <option value="Groceries">
+          <option value="Electronics">
+          <option value="Clothing">
+          <option value="Household Items">
+          <option value="Other">
+        </datalist><br>
+
+        <label for="skills">Please describe your relevant skills:</label><br>
+        <textarea id="skills" name="skills" rows="4" cols="50" required></textarea><br>
+
+        <p>At what time of day do you feel comfortable working?</p>
+        <input type="checkbox" id="morning" name="time_of_day" value="morning">
+        <label for="morning">Morning</label><br>
+
+        <input type="checkbox" id="afternoon" name="time_of_day" value="afternoon">
+        <label for="afternoon">Afternoon</label><br>
+
+      <label for="availability">Availability to Start:</label><br>
+      <input type="date" id="availability" name="availability" required><br>
+
+      <input type="submit" value="Submit Application">
+ </fieldset>
+    </form>
+
+    <p>Thank you for applying.</p>   
+</body>
+</html>
