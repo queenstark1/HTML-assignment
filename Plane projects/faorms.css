@@ -1,0 +1,107 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Very light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+#head {
+    color: #0056b3; /* A professional blue for the main heading */
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Form Container and Fieldset Styling */
+form {
+    max-width: 600px; /* Limits the width for better readability */
+    margin: 20px auto; /* Centers the form on the page */
+    padding: 20px;
+    background: #fff; /* White background for the form area */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Label and Input Styles */
+label {
+    display: block; /* Makes labels take up their own line */
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Styling for all text-based inputs, email, tel, date, datalist, and textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+input[list="goods"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    transition: border-color 0.3s;
+}
+
+/* Focus effect for inputs */
+input:focus,
+textarea:focus,
+input[list="goods"]:focus {
+    border-color: #007bff; /* Highlights the active field with blue */
+    outline: none; /* Removes default browser focus outline */
+}
+
+textarea {
+    resize: vertical; /* Allows users to resize only vertically */
+}
+
+/* Radio Button and Checkbox Alignment */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #28a745; /* Green for a clear 'action' button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Thank You Message */
+body > p:last-child {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    color: #666;
+}
